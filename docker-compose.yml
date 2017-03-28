@@ -1,0 +1,8 @@
+version: '2'
+services:
+  nsrl-api:
+    build: .
+    ports:
+     - "9000:9000"
+    volumes:
+     - ~/NSRL-DB/:/db
